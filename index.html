@@ -6,7 +6,17 @@
     <title>Text To Voice Converter</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-blue-600 h-screen">
     
+    <div class="mt-32 ml-36">
+        <h1 class="text-4xl font-medium tracking-wider text-white mb-6">Text to Voice <span class="text-rose-600">Converter</span></h1>
+        <textarea placeholder="Write anything here..." class="w-[400px] h-44 bg-[#3C3D80] p-4 text-sm rounded-lg mb-4 text-white"></textarea>
+        <div class="w-[400px] flex items-center justify-between">
+            <select class="w-[300px] bg-[#3C3D80] p-2 rounded-3xl text-white text-sm"></select>
+            <button class="bg-rose-700 p-2 text-white px-4 rounded-3xl">Listen</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
